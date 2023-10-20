@@ -250,4 +250,4 @@ if __name__ == '__main__':
         os.makedirs(UPLOAD_FOLDER)
     if not os.path.exists(DOWNLOAD_FOLDER):
         os.makedirs(DOWNLOAD_FOLDER)
-    app.run(debug=True)
+    app.run()
